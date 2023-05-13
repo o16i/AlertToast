@@ -316,7 +316,7 @@ public struct AlertToast: View{
                 }
             }
             .padding(.horizontal, 24)
-            .padding(.vertical, 28)
+            .padding(.vertical, 35)
             .frame(minHeight: 50)
             .alertBackground(style?.backgroundColor ?? nil)
             .clipShape(Capsule())
